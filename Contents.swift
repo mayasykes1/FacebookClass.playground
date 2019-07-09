@@ -48,6 +48,10 @@ class FacebookProfile{
         profileName = userName
     }
     
+    func setProfileBio(userBio: String){
+        profileBio = userBio
+    }
+    
     func checkEverything() {
         print(profileName)
     }
